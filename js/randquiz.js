@@ -37,7 +37,7 @@ insertHTML = insertHTML + '<section id="intro"> \
 	</section>';
 
 difficulty.forEach(function(d){
-	insertHTML = insertHTML + '<section class="difficulty"><h1>Difficulty : '+d.title+'</h1></section>'
+	insertHTML = insertHTML + '<section class="difficulty" data-background="#F1C40F"><h1>Difficulty : '+d.title+'</h1></section>'
 
 	var shuffledQuestions = shuffle(d.questions);
 
@@ -67,7 +67,7 @@ difficulty.forEach(function(d){
 		i++;
 	});
 });
-insertHTML = insertHTML + '<section id="end"> \
+insertHTML = insertHTML + '<section id="end" data-background="#2ECC71" style="color:white"> \
 	<h1>Thank you for using randQuiz</h1> \
 	<p>Email me at <a href="mailto:ikedumancas.official@gmail.com">ikedumancas.official@gmail.com</a> </p> <p> <small> \
 	Created by <a href="https://www.facebook.com/ikedumancas.official">Miguel Ike Dumancas</a></small></p> \
