@@ -1,0 +1,7 @@
+.question-body {
+	color : #fff;
+}
+.question-body ol.question-choices {
+	display: block;
+	list-style-type: lower-alpha;
+}
